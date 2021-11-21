@@ -1,0 +1,125 @@
+.sayfa{
+    background-color: white;
+}
+
+.header1{
+    text-align: center;
+    color: gray;
+    margin-top: 60px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.header2{
+    text-align: center;
+    font-size: 65px;
+    margin-top: -60px;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 300px;
+    float: left;
+}
+.list li {       
+    line-height: 40px;
+    height: 40px;
+    float: left;
+    width: 150px;
+    border-left: 1px solid black;
+}
+   
+.nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+  
+}
+   
+.nav a:hover {
+    color: blue;
+}
+
+
+.cizgi2{
+    margin-top: 60px;
+    margin-left: -300px;
+}
+
+.social-media{
+    border-right: 1px solid black;
+}
+
+.main{
+    width: 938px;
+    height: 1050px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.cizgi3{
+    margin-top: 0px;
+}
+
+.metin{
+    margin-top: 30px;
+    text-indent: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.yazi{
+    font-family: 'Raleway', sans-serif;
+    line-height: 30px;
+    text-indent: 0;
+    margin-left: 50px;
+    text-align: justify;
+    padding-right: 250px;
+    
+}
+
+.cizgi4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: -90px;
+}
+
+.social-media img{
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.social-media a{
+    float: left ;
+    margin-left: 10px;
+}
+
+.social-media{
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
