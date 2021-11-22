@@ -1,6 +1,5 @@
 .sayfa{
     background-color: white;
-    position: relative;
 }
 
 .header1{
@@ -16,9 +15,6 @@
     margin-top: -60px;
 }
 
-.nav{
-    position: relative;
-}
 
 .list {
     list-style: none;
