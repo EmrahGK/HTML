@@ -1,5 +1,6 @@
 .sayfa{
     background-color: white;
+    position: relative;
 }
 
 .header1{
@@ -15,30 +16,36 @@
     margin-top: -60px;
 }
 
-.nav ul {
+.nav{
+    position: relative;
+}
+
+.list {
     list-style: none;
     text-align: center;
     padding: 0;
     margin: 0;
-    margin-left: 300px;
     float: left;
+    position:absolute;
+    left: 20%;
+    
 }
 .list li {       
     line-height: 40px;
     height: 40px;
     float: left;
-    width: 150px;
+    width: 160px;
     border-left: 1px solid black;
 }
    
-.nav a {
+.list a {
     text-decoration: none;
     color: black;
     display: block;
-  
+    transition: 0.8s;
 }
    
-.nav a:hover {
+.list a:hover {
     color: blue;
 }
 
