@@ -1,22 +1,22 @@
-.sayfa{
+#sayfa{
     background-color: white;
 }
 
-.header1{
+#header1{
     text-align: center;
+    display: block;
     color: gray;
     margin-top: 60px;
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-.header2{
+#header2{
     text-align: center;
-    font-size: 65px;
-    margin-top: -60px;
+    font-size: 105px;
 }
 
 
-.list {
+#list {
     list-style: none;
     text-align: center;
     padding: 0;
@@ -26,7 +26,7 @@
     left: 20%;
     
 }
-.list li {       
+#list li {       
     line-height: 40px;
     height: 40px;
     float: left;
@@ -34,37 +34,37 @@
     border-left: 1px solid black;
 }
    
-.list a {
+#list a {
     text-decoration: none;
     color: black;
     display: block;
     transition: 0.8s;
 }
    
-.list a:hover {
+#list a:hover {
     color: blue;
 }
 
 
-.cizgi2{
+#cizgi2{
     margin-top: 60px;
     margin-left: -300px;
 }
 
-.social-media{
+#social-media{
     border-right: 1px solid black;
 }
 
-.main{
+#main{
     width: 938px;
-    height: 1050px;
+    height: auto;
     border: 1px solid black;
     margin: auto;
     margin-top: 50px;
 }
 
 
-.cizgi3{
+#cizgi3{
     margin-top: 0px;
 }
 
@@ -86,7 +86,11 @@
     
 }
 
-.cizgi4{
+.yazi-basligi{
+    text-indent: 50px;
+}
+
+#cizgi4{
     margin-top: 100px;
     margin-bottom: 100px;
 }
@@ -96,19 +100,19 @@
     margin-top: -90px;
 }
 
-.social-media img{
+#social-media img{
     height: 25px;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 10px;
 }
 
-.social-media a{
-    float: left ;
-    margin-left: 10px;
+#social-media a{
+    float: left;
+    margin-left: 15px;
 }
 
-.social-media{
+#social-media{
     height: 30px;
 }
 
