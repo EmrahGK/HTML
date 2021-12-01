@@ -15,6 +15,11 @@
     font-size: 105px;
 }
 
+#nav-bar{
+    display: flex;
+    justify-content: center;
+}
+
 
 #list {
     list-style: none;
@@ -22,8 +27,6 @@
     padding: 0;
     margin: 0;
     float: left;
-    position:absolute;
-    left: 20%;
     
 }
 #list li {       
@@ -47,7 +50,7 @@
 
 
 #cizgi2{
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: -300px;
 }
 

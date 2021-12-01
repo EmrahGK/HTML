@@ -1,24 +1,49 @@
-<html>
+<!DOCTYPE html>
+<html lang="tr">
 
 <head>
-    <title>Edebiyat ödevi | Yunus emre</title>
+    <meta charset="UTF-8">
+    <title>HTML Forms Örnekleri</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/logo.ico">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body{
+            background-image: linear-gradient(yellow,white);
+        }
+
+        #buton{
+            margin-top: 5px;
+        }
+
+        #div{
+            position: absolute;
+            left: 40%;
+            right: 50%;
+        }
+
+    </style>
 </head>
 
 <body>
     
-    <div class="cizgi1"></div>
-
-
-    <div class="kutu">
-        <h1 class="baslik">ÖDEV</h1>
+    <div id="div">
         
-        <p class="yazi">Bugün Yunus Emre'nin bir ilahisini inceleyeceğiz. Teknik kısımdan başlayalım. Şairi Yunus Emre'dir. Nazım birimi dörtlüktür. Yani şiir dörtlüklerden oluşmaktadır. Tasavvuf edebiyatı ilahi, 13.yy'da yazılmıştır. Şiirin temasından bahsedecek olursak; ölüm, hayat döngüsü, ahiret inancı şiirin temasını oluşturur. Sade bir dil kullanılmıştır. Ayrıca şiir hece ölçüsünü takip etmiştir. Her mısra 8 hece içermektedir. Her dörtlüğün son kısmında "selam olsun" nakarat olarak kullanılmıştır.  </p>
+        <form>
+
+            <!-- HTML Input -->
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br>
+
+            <button type="submit" id="buton"> Gönder</button>
+    
+
+
+        </form>
+
     </div>
-
-
+    
 </body>
 
 </html>
