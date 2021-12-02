@@ -38,22 +38,44 @@
         }
         #liste{
             list-style-type: none;
+
         }
         #content{
+            z-index: 2;
             color: rgb(28, 250, 28);
             font-size: 25px;
+            border-top: 1px solid rgb(28, 250, 28);
         }
 
-        #name{
-            border: 1 px solid rgb(28, 250, 28);
-        }
+       .cizgi1{
+            border: none;
+            position: absolute;
+            left: 36%;
+            z-index: 3;
+            border-left:    1px solid rgb(28, 250, 28);
+            height: 100vh;
+       } 
+
+       .cizgi2{
+        border: none;
+        position: absolute;
+        right: 34%;
+        z-index: 2;
+        border-left: 1px solid rgb(28, 250, 28);
+        height: 100vh;
+   } 
+
     </style>
 </head>
 
 <body>
-    
+
+<hr class="cizgi1">
+
+<hr class="cizgi2">  
+
     <div id="content">
-        
+
         <ul id="liste">
             <li class="list-elemanı" id="yazi">tema biraz alakasız olabilir :)</li>
             <li class="list-elemanı">
@@ -115,7 +137,9 @@
         
 
     </div>
+   
     
+
 </body>
 
 </html>
